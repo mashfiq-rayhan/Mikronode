@@ -1,0 +1,22 @@
+<%- include('../includes/head.ejs') %>
+
+</head>
+<body>
+  
+  <%- include('../includes/navigation.ejs') %>
+
+      <div class="b-example-divider b-example-vr"></div>
+    <div class="container-fluid">
+                
+        <div class="row">
+            <!-- <div class="w-100"></div> -->
+            <div class="col-8 offset-md-2">
+            <h1>Hotspot <%=userInformation[1] %> Information</h1>
+            <% userInformation.map(data => { %>
+                <h4><%=data %></h4>
+            <% }) %>
+        </div>
+        </div>
+      </div>
+   
+<%- include('../includes/end.ejs') %>

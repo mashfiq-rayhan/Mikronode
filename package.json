@@ -1,0 +1,28 @@
+{
+  "name": "Mikronode",
+  "version": "1.0.0",
+  "description": "Wireless Hotspot Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap-icons": "^1.9.1",
+    "core-decorators": "^0.20.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mikronode": "^2.3.11",
+    "rxjs": "^5.3.0"
+  }
+}
